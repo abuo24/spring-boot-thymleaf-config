@@ -10,6 +10,8 @@
 
 register
 <!--/*@thymesVar id="users" type="aj"*/-->
+<!--th:if-->
+<!--th:value-->
 <form id="users" action="#" th:action="@{/auth/registers}" method="post" th:object="${users}">
 <!--    <input type="text" th:field="*{fullName}"/>-->
     <input id="email"  type="email" name="email"/>
